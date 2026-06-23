@@ -126,7 +126,7 @@ footer{text-align:center;padding:24px;border-top:1px solid var(--border);font-fa
 <section class="hero" id="home">
   <div class="hero-eyebrow">SUSHANTH RAJESH PRABHU · AI/ML ENGINEER · UTD MSITM '26</div>
   <h1>Building AI systems<br>that <em>actually</em><br>ship.</h1>
-  <p class="hero-sub">Production multi-agent pipelines. Real-time streaming ML. LLM evaluation from scratch. <strong>Not demos — deployed systems.</strong> Open to full-time roles starting June 2026.</p>
+  <p class="hero-sub">Multilingual knowledge graphs at scale. Production multi-agent pipelines. Real-time streaming ML. LLM evaluation from scratch. <strong>Not demos — deployed systems.</strong> Open to full-time roles starting June 2026.</p>
   <div class="hero-cta">
     <a href="https://github.com/sushpr127" target="_blank" class="btn btn-primary">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -142,43 +142,61 @@ footer{text-align:center;padding:24px;border-top:1px solid var(--border);font-fa
 <section id="projects">
   <span class="section-tag reveal">// PROJECTS</span>
   <h2 class="section-title reveal">What I've shipped</h2>
-  <p class="section-desc reveal">Four production systems — all deployed, all public on GitHub.</p>
+  <p class="section-desc reveal">Five production systems — all deployed, all live.</p>
 
   <div class="projects-grid">
 
-    <!-- 01 Financial Research Agent - featured -->
+    <!-- 01 Knowledge Graph - featured -->
     <div class="project-card featured reveal">
       <div>
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
           <div class="project-number" style="margin-bottom:0;">01 · FEATURED PROJECT</div>
-          <a href="https://github.com/sushpr127/financial-research-agent" target="_blank" rel="noopener noreferrer" class="gh-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> github ↗</a>
+          <a href="https://community-knowledge-graph-o40fov11k-sushanths-projects-daf4a00c.vercel.app/" target="_blank" rel="noopener noreferrer" class="gh-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg> live demo ↗</a>
         </div>
-        <div class="project-title">Autonomous Financial Research Agent</div>
-        <p class="project-desc">A 6-agent LangGraph pipeline that automates equity research end-to-end — SEC EDGAR 10-K ingestion, Yahoo Finance, Tavily search, 5-model DCF valuation engine, risk scoring, and hallucination-free PDF generation.</p>
+        <div class="project-title">Multilingual Knowledge Graph &amp; Entity Resolution Engine</div>
+        <p class="project-desc">Built an in-house knowledge graph from 0→1 for a global think tank — extracting and resolving entities across multilingual data to build a traceable intelligence layer for humanitarian analysis.</p>
         <div class="project-metrics">
-          <div class="metric"><span class="metric-val">90s</span><span class="metric-label">vs 2 DAYS MANUAL</span></div>
-          <div class="metric"><span class="metric-val">$0.01</span><span class="metric-label">PER FULL RUN</span></div>
-          <div class="metric"><span class="metric-val">82%</span><span class="metric-label">RAGAS ACCURACY</span></div>
-          <div class="metric"><span class="metric-val">100%</span><span class="metric-label">HALLUCINATION GUARD</span></div>
+          <div class="metric"><span class="metric-val">5,200+</span><span class="metric-label">ENTITIES MODELED</span></div>
+          <div class="metric"><span class="metric-val">86K+</span><span class="metric-label">EVIDENCE-WEIGHTED EDGES</span></div>
+          <div class="metric"><span class="metric-val">0→1</span><span class="metric-label">BUILT FROM SCRATCH</span></div>
         </div>
 
       </div>
       <div>
         <div class="stack-tags">
-          <span class="tag">LangGraph</span><span class="tag">Gemini 2.0 Flash</span><span class="tag">SEC EDGAR</span><span class="tag">Tavily</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag teal">LangSmith</span><span class="tag teal">Ragas</span><span class="tag teal">ReportLab</span><span class="tag teal">Docker</span>
+          <span class="tag">Python</span><span class="tag">Neo4j</span><span class="tag">Cypher</span><span class="tag">Sentence-Transformers</span><span class="tag teal">LLM Orchestration</span><span class="tag teal">Multilingual NLP</span>
         </div>
         <div class="arch-box">
           <div class="arch-label">ARCHITECTURE</div>
-          <div class="arch-flow">Orchestrator → [ Researcher ‖ FilingParser ] → FinancialAnalyst → RiskScorer → Writer</div>
-          <div class="arch-detail">Parallel EDGAR ingestion + Tavily search. 5-model valuation engine (DCF, EV/EBITDA, P/B, P/E, Revenue Multiple) with 4 company-type regimes. Evaluated across 10 S&amp;P 500 companies with Ragas harness.</div>
+          <div class="arch-flow">Multilingual Extraction → Entity Resolution → Neo4j Graph → Hybrid Retrieval → Agentic Orchestration</div>
+          <div class="arch-detail">Cypher-modeled graph of 5,200+ entities and 86,000+ evidence-weighted relationships enabling traceable, multi-hop reasoning across organizations, locations, and humanitarian issues. Hybrid retrieval combines sentence-transformer semantic search with graph traversal, orchestrated by an LLM agent for multi-step query reasoning.</div>
         </div>
       </div>
     </div>
 
-    <!-- 02 LLM Eval -->
+    <!-- 02 Financial Research Agent -->
     <div class="project-card reveal">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
         <div class="project-number" style="margin-bottom:0;">02</div>
+        <a href="https://github.com/sushpr127/financial-research-agent" target="_blank" rel="noopener noreferrer" class="gh-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> github ↗</a>
+      </div>
+      <div class="project-title">Autonomous Financial Research Agent</div>
+      <p class="project-desc">A 6-agent LangGraph pipeline that automates equity research end-to-end — SEC EDGAR 10-K ingestion, Yahoo Finance, Tavily search, 5-model DCF valuation engine, risk scoring, and hallucination-free PDF generation.</p>
+      <div class="project-metrics" style="gap:16px;">
+        <div class="metric"><span class="metric-val">90s</span><span class="metric-label">vs 2 DAYS MANUAL</span></div>
+        <div class="metric"><span class="metric-val">$0.01</span><span class="metric-label">PER FULL RUN</span></div>
+        <div class="metric"><span class="metric-val">82%</span><span class="metric-label">RAGAS ACCURACY</span></div>
+        <div class="metric"><span class="metric-val">100%</span><span class="metric-label">HALLUCINATION GUARD</span></div>
+      </div>
+      <div class="stack-tags">
+        <span class="tag">LangGraph</span><span class="tag">Gemini 2.0 Flash</span><span class="tag">SEC EDGAR</span><span class="tag">Tavily</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag teal">LangSmith</span><span class="tag teal">Ragas</span><span class="tag teal">ReportLab</span><span class="tag teal">Docker</span>
+      </div>
+    </div>
+
+    <!-- 03 LLM Eval -->
+    <div class="project-card reveal">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+        <div class="project-number" style="margin-bottom:0;">03</div>
         <a href="https://github.com/sushpr127/llm-eval-platform" target="_blank" rel="noopener noreferrer" class="gh-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> github ↗</a>
       </div>
       <div class="project-title">LLM Evaluation &amp; Observability Platform</div>
@@ -193,10 +211,10 @@ footer{text-align:center;padding:24px;border-top:1px solid var(--border);font-fa
 
     </div>
 
-    <!-- 03 Streaming ML -->
+    <!-- 04 Streaming ML -->
     <div class="project-card reveal">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-        <div class="project-number" style="margin-bottom:0;">03</div>
+        <div class="project-number" style="margin-bottom:0;">04</div>
         <a href="https://github.com/sushpr127/fraud-ml-platform" target="_blank" rel="noopener noreferrer" class="gh-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> github ↗</a>
       </div>
       <div class="project-title">Real-Time Streaming ML Platform</div>
@@ -212,12 +230,12 @@ footer{text-align:center;padding:24px;border-top:1px solid var(--border);font-fa
 
     </div>
 
-    <!-- 04 Multimodal - full width -->
+    <!-- 05 Multimodal - full width -->
     <div class="project-card reveal" style="grid-column:1 / -1;">
       <div class="full-width-proj">
         <div>
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-            <div class="project-number" style="margin-bottom:0;">04</div>
+            <div class="project-number" style="margin-bottom:0;">05</div>
             <a href="https://github.com/sushpr127/multimodal-clinical-agent" target="_blank" rel="noopener noreferrer" class="gh-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> github ↗</a>
           </div>
           <div class="project-title">Multimodal Clinical Document Intelligence Agent</div>
@@ -287,12 +305,48 @@ footer{text-align:center;padding:24px;border-top:1px solid var(--border);font-fa
 
     <div class="timeline-item">
       <div class="exp-header">
+        <div class="exp-company">Global Inclusive Economic Society</div>
+        <div class="exp-date">JAN 2026 – MAY 2026</div>
+      </div>
+      <div class="exp-role">AI SOFTWARE ENGINEER · DALLAS, USA</div>
+      <ul class="exp-bullets">
+        <li>Built an in-house <strong>knowledge graph from 0→1</strong> for a global think tank, extracting and resolving entities across multilingual data to build a traceable intelligence layer</li>
+        <li>Modeled <strong>5,200+ entities and 86,000+ evidence-weighted relationships</strong> in Neo4j via Cypher, enabling multi-hop reasoning across organizations, locations, and humanitarian issues</li>
+        <li>Implemented a <strong>hybrid retrieval system</strong> — sentence-transformer semantic search + graph traversal + LLM agentic orchestration — for multi-step query reasoning</li>
+      </ul>
+    </div>
+    <div class="timeline-item">
+      <div class="exp-header">
+        <div class="exp-company">XLR8GTM Partners</div>
+        <div class="exp-date">AUG 2025 – DEC 2025</div>
+      </div>
+      <div class="exp-role">AI SOFTWARE ENGINEER · DALLAS, USA</div>
+      <ul class="exp-bullets">
+        <li>Built an in-house <strong>AI GTM platform from scratch</strong> for an early-stage startup, cutting prospecting time from 3 hours to under 5 minutes per campaign</li>
+        <li>Designed a <strong>multi-agent system in LangGraph</strong> orchestrating research, company discovery, and contact identification agents across the full prospecting workflow</li>
+        <li>Shipped a <strong>full-stack platform (FastAPI + React)</strong> with a 3-person team, delivering real-time agent outputs and lead scoring into production</li>
+      </ul>
+    </div>
+    <div class="timeline-item">
+      <div class="exp-header">
+        <div class="exp-company">Tech Mahindra Global Chess League</div>
+        <div class="exp-date">MAY 2025 – AUG 2025</div>
+      </div>
+      <div class="exp-role">FOUNDERS OFFICE · BENGALURU, INDIA</div>
+      <ul class="exp-bullets">
+        <li>Identified and shortlisted <strong>15 sponsor organizations</strong> across India for a Global Sports League, with 5 approved directly by the COO</li>
+        <li>Delivered strategy and market research briefs to the COO, informing expansion decisions across USA universities</li>
+        <li>Co-published a research paper with the COO on AI's impact in Chess — <strong>1,000+ views</strong></li>
+      </ul>
+    </div>
+    <div class="timeline-item">
+      <div class="exp-header">
         <div class="exp-company">Tejas Networks</div>
         <div class="exp-date">JAN 2024 – JUN 2024</div>
       </div>
       <div class="exp-role">DATA SCIENTIST INTERN · BANGALORE, INDIA</div>
       <ul class="exp-bullets">
-        <li>Built and deployed <strong>LSTM-based anomaly detection in PyTorch</strong> on 1M+ network time-series records — 85% classification accuracy, 20% downtime reduction</li>
+        <li>Built and deployed <strong>LSTM-based anomaly detection in PyTorch</strong> on 1M+ network time-series records — 95% accuracy, 75% recall, reducing network downtime by 80%</li>
         <li>Built executive-facing <strong>Tableau dashboards</strong> for real-time anomaly trends and model KPIs, reducing manual monitoring by 40%</li>
         <li>Presented ML insights directly to engineering leadership, translating model outputs into executive-ready operational recommendations</li>
       </ul>
